@@ -1,0 +1,109 @@
+body {
+    background-color: #add8e6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.textScore {
+    text-align: center;
+}
+
+.text {
+    position: fixed;
+    left: 730px;
+    top: 80px;
+    font-size: 30px;
+}
+
+button {
+    position: fixed;
+    left: 730px;
+    top: 150px;
+    background-color: green;
+    padding: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+#one {
+    display: none;
+    position: fixed;
+    left: 300px;
+    bottom: 380px;
+}
+
+#two {
+    display: none;
+    position: fixed;
+    left: 650px;
+    bottom: 380px;
+}
+
+#three {
+    display: none;
+    position: fixed;
+    left: 1000px;
+    bottom: 380px;
+}
+
+#four {
+    display: none;
+    position: fixed;
+    left: 300px;
+    bottom: 150px;
+}
+
+#five {
+    display: none;
+    position: fixed;
+    left: 650px;
+    bottom: 150px;
+}
+
+#six {
+    display: none;
+    position: fixed;
+    left: 1000px;
+    bottom: 150px;
+}
+
+.dirtOne {
+    position: fixed;
+    left: 250px;
+    bottom: 340px;
+}
+
+.dirtTwo {
+    position: fixed;
+    left: 600px;
+    bottom: 340px;
+}
+
+.dirtThree {
+    position: fixed;
+    left: 950px;
+    bottom: 340px;
+}
+
+.dirtFour {
+    position: fixed;
+    left: 250px;
+    bottom: 120px;
+}
+
+.dirtFive {
+    position: fixed;
+    left: 600px;
+    bottom: 120px;
+}
+
+.dirtSix {
+    position: fixed;
+    left: 950px;
+    bottom: 120px;
+}
+
+

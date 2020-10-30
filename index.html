@@ -1,0 +1,36 @@
+<!--
+    Porject: Whack-A-Mole
+    By: Mirzokhid Ganiev
+    Age: 15
+    Grade: 10 G
+    Date upon finishing: Friday, 30th October 2020 (30/10/2020)
+    Location: Dubai, UAE
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Whack-A-Mole</h1>
+        <p class="textScore">Get 20 points to WIN!! Remember to click on the moles to get a point, not on the dirt</p>
+        <div class="text">
+           <p id="score"></p>
+        </div>
+        <button id="button" onclick="fade()">Start</button>
+        <img src="mole.png" id="one" onclick="score()" width="200" height="125">
+        <img src="mole.png" id="two" onclick="score()" width="200" height="125">
+        <img src="mole.png" id="three" onclick="score()" width="200" height="125">
+        <img src="mole.png" id="four" onclick="score()" width="200" height="125">
+        <img src="mole.png" id="five" onclick="score()" width="200" height="125">
+        <img src="mole.png" id="six" onclick="score()" width="200" height="125">
+        <img src="dirt.png" class="dirtOne" width="300" height="100">
+        <img src="dirt.png" class="dirtTwo" width="300" height="100">
+        <img src="dirt.png" class="dirtThree" width="300" height="100">
+        <img src="dirt.png" class="dirtFour" width="300" height="100">
+        <img src="dirt.png" class="dirtFive" width="300" height="100">
+        <img src="dirt.png" class="dirtSix" width="300" height="100">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="java.js"></script>        
+    </body>
+</html>
